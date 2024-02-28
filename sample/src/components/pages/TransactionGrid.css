@@ -1,0 +1,53 @@
+
+
+.transaction-grid-container {
+
+
+        --ag-foreground-color: rgb(163, 64, 64);
+       --ag-background-color: rgba(215, 245, 231, 0.212);
+    
+        --ag-selected-row-background-color: rgba(0, 38, 255, 0.1);
+    
+  }
+  #dark-background {
+    background-color: #36393f; 
+  }
+  
+  .ag-theme-alpine {
+    height: 100%;
+  }
+  
+
+  .ag-header {
+    background-color: #314b63;
+  }
+  
+  .ag-header-cell {
+    color: #ffffff; 
+    font-weight: bold;
+  }
+  
+
+  .ag-row {
+    background-color: #bc2929; 
+  }
+  
+  .ag-row-odd {
+    background-color: #f2f2f2; /* Alternate background color for odd rows */
+  }
+  
+  /* Styles for table cell */
+  .ag-cell {
+    color: #333333; /* Set the text color of the cells */
+  }
+  
+  /* Responsive CSS */
+  @media screen and (max-width: 768px) {
+    .ag-header-cell,
+    .ag-cell {
+      white-space: normal; /* Allow text wrapping */
+      overflow: visible; /* Show overflow content */
+      text-overflow: clip; /* Do not display ellipsis for overflow text */
+    }
+  }
+  
